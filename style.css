@@ -1,0 +1,380 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Josefin+Sans&family=Montserrat:wght@300&family=Satisfy&family=Sniglet&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Prompt:wght@200&family=Rubik:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Kaushan-font: 'Kaushan', cursive;
+    --Raleway-font: 'Raleway bold', cursive;
+    --Sniglet-font: 'Sniglet', cursive;
+    --Architects: 'Architects+Daughter', cursive;
+    --jos: 'Josefin+Sans', cursive;
+    --monster: 'Montserrat', cursive;
+    --satis: 'Satisfy', cursive;
+    --varel: 'Varela+Round', cursive;
+    --rubik: 'Rubik', cursive;
+    --incons: 'Inconsolata', cursive;
+    --prompt: 'Prompt', cursive;
+
+
+}
+
+header a {
+    font-family: var(--prompt);
+    font-size: 1em;
+    font-weight: 590;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    /* background: linear-gradient(90deg, #fdc830, #f37335); */
+    background: linear-gradient(45deg, #48c6ef, #6f86d6);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--monster);
+    color: white;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/* section 1 */
+.section-1 {
+    padding: 20vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.9;
+    width: 85%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 6vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 25vmin 10vmin;
+    box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--prompt);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* section-2 */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(./images/pic4.jpg);
+    background-position: -24rem --19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--prompt);
+    font-size: 6vmin;
+    font-weight: 580;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: var(--rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, 0.349);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 4.5rem;
+    color: tomato;
+}
+
+.numbers .rect p {
+    font-family: var(--Kaushan-font);
+    font-weight: 550;
+}
+
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--satis);
+}
+
+.purchase>p {
+    color: grey;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: gray;
+}
+
+.card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1 {
+    font-size: 8vmin;
+    padding: 1em 0.5em;
+}
+
+/* section-3 */
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: linear-gradient(to left, #fc5c7d, #6a82fb);
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-family: var(--monster);
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p {
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: lightgoldenrodyellow;
+    font-size: 3vmin;
+}
+
+.section-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+    font-size: 2vmin;
+}
+
+/* section-4 */
+
+.section-4 .container h1 {
+    font-family: var(--monster);
+    font-weight: bold;
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 00.5em;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+/* footer */
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer h1,
+h4 {
+    font-family: var(--incons);
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: linear-gradient(45deg, #ff512f, #da415f);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+/* sticky classs */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
