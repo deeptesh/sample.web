@@ -38,9 +38,20 @@ header a {
 }
 
 header {
-    background: #dd2476;
-    /* background: linear-gradient(90deg, #fdc830, #f37335); */
-    background: linear-gradient(45deg, #48c6ef, #6f86d6);
+    /* background: #dd2476; */
+    background: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
+    animation: moving 5s linear infinite alternate;
+    background-size: 200% 200%;
+}
+
+@keyframes moving {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 .dropdown-content {
